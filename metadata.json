@@ -1,0 +1,6 @@
+{
+  "name": "Shah & Shah",
+  "description": "Precision Metal Fabrication & Engineering — premium pressure vessels, heat exchangers, storage tanks, and custom manufacturing solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

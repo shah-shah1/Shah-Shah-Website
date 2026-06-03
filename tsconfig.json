@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "paths": {
+      "@/lib/utils": ["./src/utils.ts"],
+      "@/components/site/*": ["./src/*"],
+      "@/components/ui/*": ["./src/*"],
+      "@/components/*": ["./src/*"],
+      "@/lib/*": ["./src/*"],
+      "@/hooks/*": ["./src/*"],
+      "@/assets/*": ["./src/*"],
+      "@/*": ["./src/*"]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
+}
