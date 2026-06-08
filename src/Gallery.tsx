@@ -33,7 +33,7 @@ export function Gallery() {
             className="flex items-center gap-3 mb-6 text-xs tracking-[0.3em] text-gold uppercase"
           >
             <span className="h-px w-10 bg-gold" />
-            Archival
+            Gallery
           </motion.div>
           <motion.h2
             initial={{ opacity: 0, y: 16 }}

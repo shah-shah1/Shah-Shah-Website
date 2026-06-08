@@ -124,7 +124,7 @@ export function Nav() {
             href="#work"
             className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors rounded-full"
           >
-            Archival
+            Gallery
           </a>
           <a
             href="#contact"
@@ -208,7 +208,7 @@ export function Nav() {
               onClick={() => setOpen(false)}
               className="px-4 py-3 text-sm text-foreground/90 hover:text-gold transition-colors border-t border-white/5 block"
             >
-              Archival
+              Gallery
             </a>
             <a
               href="#contact"
